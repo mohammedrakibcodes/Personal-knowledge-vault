@@ -73,8 +73,6 @@ header{
   padding-left: 0;
   padding-right: 0;
 }
-
-
 .hero-style {
   display: inline-flex;
   align-items: center;
@@ -126,5 +124,61 @@ header{
   margin: 0 auto;
   padding: 0 24px;
   text-align: center;
+}
+
+/* Notes Section */
+
+.notes{
+  padding: 80px 24px;
+  text-align: center;
+  background: #ffffff;
+}
+.notes-title{
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.notes-subtitle{
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 48px;
+}
+.notes-cards{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 24px;
+}
+.note-card{
+  flex: 1; 
+  background: #ffffff;
+  padding: 32px 24px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  text-align: center;
+}
+.note-card .icon{
+  width: 48px;
+  height: 48px;
+  background: #ff5a5a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+}
+.note-card .icon img{
+  width: 22px;
+  height: 22px;
+}
+.note-card h3{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.note-card p{
+  font-size: 14px;
+  color: #6b7280;
+  line-height: 1.5;
 }
 
