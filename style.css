@@ -1,6 +1,4 @@
- 
-
-*{   margin: 0;
+ *{   margin: 0;
     padding: 0;
     box-sizing: border-box;}
 .logo{
@@ -58,7 +56,7 @@ header{
   background: darkgreen;
   transform: translateY(-2px);
 }
-/* hero section */
+
 .hero {
   padding: 120px 0;
   text-align: center;
@@ -126,8 +124,6 @@ header{
   text-align: center;
 }
 
-/* Notes Section */
-
 .notes{
   padding: 80px 24px;
   text-align: center;
@@ -181,16 +177,11 @@ header{
   color: #6b7280;
   line-height: 1.5;
 }
-
-/* Second Brain */
-
-/* Second Brain Section */
 .second-brain{
   padding: 80px 24px;
   background: #ffffff;
   margin-bottom: 0;
 }
-
 .second-inner{
   max-width: 1200px;
   margin: 0 auto;
@@ -198,29 +189,22 @@ header{
   align-items: center;
   gap: 64px;
 }
-
-/* Left image */
 .second-image{
   flex: 1;
 }
-
 .second-image img{
   width: 100%;
   max-width: 480px;
 }
-
-/* Right content */
 .second-content{
   flex: 1;
 }
-
 .section-tag{
   font-size: 12px;
   font-weight: 600;
   color: #22c55e;
   letter-spacing: 1px;
 }
-
 .second-content h2{
   font-size: 36px;
   font-weight: 700;
@@ -233,9 +217,6 @@ header{
   line-height: 1.6;
   margin-bottom: 24px;
 }
-
-/* Feature list with PNG check icon */
-
 .feature-list{
   list-style: none;
   padding: 0;
@@ -250,15 +231,11 @@ header{
   font-size: 15px;
   color: #0f172a;
 }
-
 .feature-list li img{
   width: 18px;
   height: 18px;
   flex-shrink: 0;
 }
-
-/* Early Access Section */
-
 .early-access{
   padding:80px 24px;
   background:#ffffff;
@@ -305,4 +282,54 @@ header{
   margin-top:16px;
   font-size:14px;
   color:#6b7280;
+}
+.footer{
+    background:#071c2f;
+    padding:60px 24px 32px;
+    color:#cbd5e1;
+}
+.footer-top{
+    max-width:1200px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+.footer-logo img{
+    height:42px;
+}
+.footer-social{
+    text-align:right;
+}
+.footer-social span{
+    display:block;
+    font-size:14px;
+    margin-bottom:10px;
+    color:#e5e7eb;
+}
+.social-icons{
+    display:flex;
+    gap:14px;
+    justify-content:flex-end;
+}
+.social-icons img{
+    width:20px;
+    height:20px;
+    opacity:0.9;
+    transition:0.2s ease;
+}
+.social-icons img:hover{
+    opacity:1;
+    transform:translateY(-2px);
+}
+.footer-divider{
+    max-width:1200px;
+    margin:40px auto 20px;
+    height:1px;
+    background:rgba(255,255,255,0.15);
+}
+.footer-copy{
+    text-align:center;
+    font-size:14px;
+    color:#94a3b8;
 }
